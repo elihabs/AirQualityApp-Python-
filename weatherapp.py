@@ -43,7 +43,7 @@ def ziplookup():
         api = "Error..."
 
 
-# http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=19711&distance=10&API_KEY=8E06DD96-F989-4CFE-8C26-E754086AC07F
+# http://www.airnowapi.org/aq/observation/zipCode/current/?format=application/json&zipCode=19711&distance=10&API_KEY="GET API KEY"
 
 zip = Entry(root)
 zip.grid(row=0, column=0, stick=W+E+N+S)
